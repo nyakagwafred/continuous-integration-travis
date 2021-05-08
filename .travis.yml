@@ -8,7 +8,6 @@ addons:
     - libcurl4-openssl-dev # required to avoid SSL errors
 env:
   global:
-script:
 - bundle exec jekyll build
 - echo "Finished build."
 jobs:
